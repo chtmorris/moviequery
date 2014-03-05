@@ -2,7 +2,8 @@ body {
   margin: 5px 20px;
   background: no-repeat center center fixed;
   background-size:cover;
-
+  color: white;
+  font-family: 'Antic Didone', serif;
 }
 
 img {
@@ -16,7 +17,7 @@ img {
 }
 
 .search-drop-result:hover {
-  background-color: hsla(0, 0%, 100%, 0.42);
+  background-color: hsla(0, 0%, 100%, 0.22);
   cursor: pointer;
   cursor: hand;
   position: static;
@@ -25,13 +26,17 @@ img {
 .movie-info {
   padding: 5px 15px;
   position: static;
-  background-color: hsla(0, 0%, 100%, 0.42);
+  background-color: hsla(0, 0%, 0%, 0.50);
+  color: hsla(0, 0%, 100%, 0.55);
   width: 60%;
+}
+
+.box {
+  background-color: hsla(0, 0%, 0%, 0.50);
 }
 
 h1{
   text-align: center;
-  background-color: hsla(0, 0%, 0%, 0.30);
   width: auto;
   color: hsla(0, 0%, 100%, 0.55);
 }
@@ -48,7 +53,7 @@ h1{
   font-size: 18px;
   font-weight: normal;
   list-style: none;
-  background-color: hsla(0, 0%, 100%, 0.22);
+  background-color: hsla(0, 0%, 0%, 0.50);
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, .15);
@@ -72,11 +77,27 @@ h1{
   width: 370px;
   padding: 8px 5px;
   float: left;
-  color: #ccc;
+  color: white;
   border: 0;
   background: transparent;
   border-radius: 3px 0 0 3px;
   font-size: 15px;
+}
+
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
 }
 
 .search input:focus {

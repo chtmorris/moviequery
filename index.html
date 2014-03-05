@@ -11,6 +11,7 @@
   <script src="jquery.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <link rel="stylesheet" href="/stylesheet.css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Antic+Didone' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -30,6 +31,7 @@
         </ul>
       </div>
       </div>
+      <div class="box">
       <ul class="list-group" data-ng-hide="movieInfoInvisible">
         <h1>{{movieInfo.Title}}</h1>
         <img src="{{movieInfo.Poster}}" alt="Movie Poster">
@@ -37,6 +39,7 @@
           <strong>{{ key }}:</strong> {{ info }}
         </li>
       </ul>
+      </div>
     </form>
   </main>
 </body>

@@ -15,6 +15,12 @@
         image: "http://oyster.ignimgs.com/ve3d/images/04/67/46735_orig.jpg"
       }, {
         image: "http://l.yimg.com/os/publish-images/movies/2013-09-13/2b5e3792-e303-4679-abad-4253ba2b5bd0_GV-FP-0123r.jpg"
+      }, {
+        image: "http://images.fanpop.com/images/image_uploads/300-Movie-Publicity-Still-300-222355_1500_705.jpg"
+      }, {
+        image: "http://reelmovienation.com/wp-content/uploads/2012/06/BladeRunner3.jpg"
+      }, {
+        image: "http://images1.fanpop.com/images/photos/1900000/Watchmen-Movie-the-watchmen-1989049-1800-751.jpg"
       }
     ];
     getRandomInt = function(min, max) {
